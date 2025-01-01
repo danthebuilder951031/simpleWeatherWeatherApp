@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <form action="/search" method="POST" class="search-bar">
+            <input type="text" name="location" placeholder="Enter location" required>
+            <button type="submit">Search</button>
+        </form>
+        <img src="images/<%=img%>" alt="Weather Icon">
+        <h1>&nbsp;<%=temp %><span>°</span></h1>
+        <h3><%= location %></h3>
+        <p><%= content %></p>
+        <p><%=main%></p>
+    </div>
+</body>
+</html>

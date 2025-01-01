@@ -1,0 +1,17 @@
+{
+  "name": "weatherweatherapp",
+  "version": "1.0.0",
+  "description": "Just A Simple Weather Card App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Joshua Ngoho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
